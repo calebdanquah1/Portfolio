@@ -818,3 +818,187 @@ footer .container .content .social .logo:hover {
 footer .container .content .social p {
   font-weight: bold;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  header {
+    height: 8vh;
+  }
+
+  header .container .content {
+    justify-content: space-between;
+  }
+
+  header .container .content .logo a {
+    font-size: 1rem;
+  }
+
+  header .container .content nav {
+    display: none;
+  }
+
+  header .container .content .extra-nav a {
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* Hero Section */
+  .hero .container .content .text h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  .hero .container .content .text .row-2 {
+    margin-left: 0;
+  }
+
+  .hero .container .content .short-info {
+    padding: 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    bottom: 2rem;
+  }
+
+  /* About Section */
+  .about .container .content {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .about .container .content .title,
+  .about .container .content .profile-container,
+  .about .container .content .about-me {
+    width: 100%;
+    height: auto;
+  }
+
+  .about .container .content .title {
+    margin-top: 2rem;
+  }
+
+  .about .container .content .title h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  .about .container .content .title h1 {
+    font-size: 2.5rem;
+  }
+
+  .about .container .content .profile-container .profile {
+    width: 100%;
+    height: 300px;
+    border-radius: 32px;
+  }
+
+  .about .container .content .about-me {
+    padding-left: 0;
+    padding-bottom: 2rem;
+  }
+
+  .about .container .content .about-me button {
+    width: 60%;
+  }
+
+  /* Projects Section */
+  .project .container .content .header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .project .container .content .header button {
+    width: 60%;
+  }
+
+  .project .container .content .header .title {
+    align-items: flex-start;
+  }
+
+  .project .container .content .header .title .row-1 {
+    font-size: 1.2rem;
+  }
+
+  .project .container .content .header .title .row-2 {
+    font-size: 2rem;
+  }
+
+  .project .container .content .project-area {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project .container .content .project-area .projects {
+    width: 100%;
+    height: 300px;
+    border-radius: 32px;
+    margin-bottom: 1rem;
+  }
+
+  .project .container .content .project-area .projects .desc h1 {
+    font-size: 2rem;
+  }
+
+  /* Contact Section */
+  .contact .container .content {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .contact .container .content .contact-area {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .contact .container .content .contact-area .left-side,
+  .contact .container .content .contact-area .right-side {
+    width: 100%;
+  }
+
+  .contact .container .content .contact-area .left-side h1 {
+    font-size: 2rem;
+    transform: none;
+  }
+
+  .contact .container .content .contact-area .left-side h1:nth-child(2) {
+    margin-left: 0;
+  }
+
+  /* Footer */
+  footer {
+    min-height: 15vh;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  .hero .container .content .text h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .about .container .content .title h1 {
+    font-size: 2rem;
+  }
+
+  .project .container .content .header .title .row-2 {
+    font-size: 1.5rem;
+  }
+
+  .contact .container .content .contact-area .left-side h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
