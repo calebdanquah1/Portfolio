@@ -632,7 +632,7 @@ header .container .content .extra-nav a:hover span {
   background: var(--gray);
   border-radius: 64px;
   overflow: hidden;
-  filter: grayscale(100);
+  
 }
 
 .project .container .content .project-area .projects img {
@@ -643,7 +643,7 @@ header .container .content .extra-nav a:hover span {
 }
 
 .project .container .content .project-area .projects:hover img {
-  filter: brightness(30%);
+  filter: brightness(25%);
 }
 
 .project .container .content .project-area .projects .desc {
@@ -819,7 +819,6 @@ footer .container .content .social p {
   font-weight: bold;
 }
 
-/* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
   .container {
     padding: 1rem;
@@ -996,9 +995,3 @@ footer .container .content .social p {
     font-size: 1.5rem;
   }
 }
-
-
-
-
-
-
